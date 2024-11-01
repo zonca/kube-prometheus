@@ -33,6 +33,7 @@ spec:
   probeNamespaceSelector: {}
   probeSelector: {}
   replicas: 2
+  retention: 365d
   resources:
     requests:
       memory: 400Mi
